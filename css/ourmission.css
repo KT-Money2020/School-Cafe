@@ -1,0 +1,36 @@
+
+
+
+
+
+.main-image{
+   transform: translateX(-3%) translateY(10%);
+   width:108vw;
+   height:60vh;
+   object-fit:contain;
+   filter: blur(3.3px);
+   filter: brightness(85%);
+   margin-top: 70px;
+}
+
+
+.one{
+    background: #00d2d3;
+}
+
+#five{
+    background: 0;
+}
+
+@media(max-width: 420px){
+
+.main-image{
+   width:108vw;
+   height:45vh;
+
+   margin-top: 0px;
+}
+
+
+}
+

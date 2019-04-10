@@ -1,0 +1,1330 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat');
+@font-face {
+font-family: "Proxima Nova";
+src: url("../fonts/proxima.ttf");
+
+}
+@font-face {
+font-family: "KG Second Chances Sketch";
+src: url("../fonts/chalk.ttf");
+
+}
+
+.ig{
+    padding: 40px !important;
+}
+html,
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+     overflow-x:hidden;
+}
+
+body{
+    font-family: "Proxima Nova", 'sans-serif';
+}
+
+h1{
+    padding-bottom:20px;
+    padding-top: 20px;
+}
+
+p{
+    padding-bottom:40px;
+    padding-top: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+    text-align: left;
+    line-height: 25px;
+}
+header{
+    overflow: hidden;
+    
+}
+
+
+#contentTwo p{
+    line-height: 38px;
+    padding-top: 5px;
+    font-size: 1.08rem;
+}
+
+#bg #first-content #contentTwo h1{
+  padding-bottom: 1%; 
+}
+
+#bg{
+    margin-top: -26px;
+    /*Alternative color is #DCDCDC */
+    background: #F5DEB3;
+}
+
+/* Text at the center of the video */
+.hello{
+    margin:0;
+    padding: 0;
+    font-size: 7.5rem;
+    position: absolute;
+    right: 23.3%;
+    bottom: 35%;
+    color: #ffffff;
+    z-index: 1;
+    font-family: 'caveat';
+}
+.helloTwo{
+    margin:0;
+    padding: 0;
+    font-size: 2rem;
+    position: absolute;
+    right: 30%;
+    bottom: 51%;
+    color: #ffffff;
+    z-index: 1;
+    font-family: 'caveat';
+}
+
+.more-space{
+    margin-top: 200px;
+}
+/* Text at the center of the video */
+
+
+
+#overlay{
+       
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    /*background-color:rgba(0, 0, 0, 0.5);*/
+    background: rgba(255,255,255,.35);
+}
+/************************Positioning The Video ***************************/
+video{
+    position: relative;
+    transform: translateX(-2%) translateY(-25%);
+    filter: blur(3.2px);
+    z-index: -1;
+    margin-bottom: -300px;
+    max-height:930px;
+    
+}
+/************************Positioning The Video ***************************/
+
+
+
+.content{
+    width: 90%;
+    margin: 4em auto;
+    line-height: 30px;
+    text-align: justify;
+   
+}
+/************************ Logo  ***************************/
+#viking-logo{
+    position: fixed;
+    z-index: 100;
+}
+
+.logo{
+    position: fixed;
+    float:left;
+    margin: 8px 36px 0px 100px;
+    color: #c3212d;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+/************************ Logo  ***************************/
+
+
+
+
+/************************ Navigation Bar***************************/
+#space-right{
+    margin-right: 4.3rem;
+}
+
+nav{
+    font-family: 'KG Second Chances Sketch';
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+nav ul{
+    
+    list-style: none;
+    background: rgba(0,0,0,0);
+    overflow: hidden;
+    color: #000;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+    background: #F0F0F0;
+}
+
+
+
+/* Adding margins to the list items */
+nav ul li{
+    display: inline-block;
+    padding: 20px 44px 20px 44px;
+    float: right;
+    border-radius: 6px;
+}
+
+/* If you want to change the font color then chnage the a tag */
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #17c0eb;
+}
+
+.one{color:#00d2d3;}
+#two{color:#eb3b5a;}
+#three{color:#feca57;}
+#four{color:#cd6133;}
+#five{color:#4cd137;}
+
+li:hover a {
+    color: inherit;
+    color: #ffffff;
+}
+#five{
+    background: #4cd137;
+}
+
+.one:hover{
+    background: #00d2d3;
+    
+}          
+#two:hover{
+    background: #eb3b5a;
+}          
+
+#three:hover{
+    background: #feca57;
+}          
+
+#four:hover{
+    background: #cd6133;
+}          
+
+#five:hover{
+    background: #4cd137;
+}          
+
+
+
+.menu-icon{
+    width: 100%;
+    background: #F0F0F0;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #c3212d;
+    display: none;
+}
+
+.yellow-space{
+    background: #F5DEB3;
+    height: 100px;
+}
+
+section{
+    background: #ffffff;
+    text-align: center;
+    width: 88%;
+    margin-left: 6.3%;
+    border-radius: 20px;
+}
+
+
+#first-content{
+    
+
+    text-align: center;
+    background: #ffffff;
+    width: 88%;
+/*************** Adding some white layout on top of the brown background **************/    
+    margin-left: 6.3%;
+    border-radius: 20px;
+}
+#first-content h1{font-size: 2rem;}
+
+
+
+
+.bg-one{
+    background: #f7d794;
+    margin-top: 7%;
+    margin-bottom: 14rem;
+}
+
+.bg-one div.height{
+    height: 22rem;
+    font-size: 1.08rem;
+}
+
+.bg-one .height p{
+     margin: 0;
+    line-height: 38px;
+}        
+
+.middle-pic{
+    position: absolute;
+    border-radius: 5px;
+    width: 500px;
+    margin: -17.5rem 0 0 4rem;
+}
+
+
+.height{
+    padding-top: 1px;
+    padding-left: 45%; 
+    padding-right: 5%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/*****************************************Specifically for computer screens ***************************************************/
+
+
+
+
+
+@media(min-width: 1300px){
+    .cafe-text{
+    font-size: 19vw!important;
+        
+    }
+    .grid{
+    padding-bottom: 500px;
+    margin-top: 45vh;
+}
+    
+}
+
+
+
+
+
+
+
+@media(max-width: 1370px){
+    
+    #space-right{
+        margin-right: 1px;
+    }
+    .logo{
+        font-size: 2.4rem;
+        position: fixed;
+        top: 0;
+        margin-top: 5px;
+    }
+    nav ul{
+        max-height: 0px;
+        background: #fff;
+    }
+
+    /* When clicked on it shows the entire list items, this is the height of it */
+    .showing{
+        max-height: 23em;
+        border-bottom: 1px ridge #c3212d;
+    }
+    nav ul li{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px 0;
+        text-align: center;
+        
+    }
+    nav{
+        color: white;
+    }
+    .menu-icon{
+        display: block;
+    }
+    
+    video{
+    position: relative;
+    transform: translateX(-12%) translateY(-30%);
+    filter: blur(3.2px);
+    z-index: -1;
+    margin-bottom: -300px;
+  /* how much of the video screen should be displayed */        
+    max-height:830px;
+    }
+    
+    
+    .hello{
+    margin:0;
+    padding: 0;
+    font-size: 7rem;
+    line-height: 4.6rem;
+    position: absolute;
+    bottom: 43%; 
+    right:20.4%;    
+    color: #ffffff;
+    text-align: right;    
+        
+    }
+    
+.helloTwo{
+        margin:0;
+        padding: 0;
+        font-size: 1.6rem;
+        position: absolute;
+        right: 20%;
+        bottom: 39%;
+        color: #ffffff;
+        z-index: 1;
+}    
+    
+.btn {
+         z-index: 1;
+         position: absolute;
+    /* Affectsthe Ipad screen as well */
+         right: 40% !important;
+         bottom: 9% !important;
+
+    }
+    
+.bg-one{
+    background: #f7d794;
+    padding-bottom: 90px;
+    margin-top: 5%;
+    margin-bottom: 14rem;
+}
+
+.bg-one div.height{
+    height: 42rem;
+}
+
+.middle-pic{
+    position: absolute;
+    border-radius: 5px;
+    width: 500px;
+    margin-top: -39.5rem;
+    margin-left: 15%;
+}
+
+.bg-one .height h1{
+     padding: 25px 0 0 0;
+     margin: 0;
+}    
+.bg-one .height p{
+     margin: 0;
+    line-height: 38px;
+}        
+
+.height{
+    padding-top: 25rem;
+    padding-left: 10%; 
+    padding-right: 5%;
+}
+
+video{
+    position: relative;
+    transform: translateX(-2%) translateY(-25%);
+    filter: blur(3.2px);
+    z-index: -1;
+    margin-bottom: -300px;
+    max-height:930px;
+    
+}   
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 536px) and (max-width: 929px){
+    
+    .hello{
+    margin:0;
+    padding: 0;
+    font-size: 7rem;
+    line-height: 4.6rem;
+    position: absolute;
+    bottom: 55%; 
+    right:19%;    
+    color: #ffffff;
+    text-align: right;    
+        
+    }
+    
+    .helloTwo{
+        margin:0;
+        padding: 0;
+        font-size: 1.6rem;
+        position: absolute;
+        right: 19%;
+        bottom: 53%;
+        color: #ffffff;
+        z-index: 1;
+}    
+    
+     .btn {
+         z-index: 1;
+         position: absolute;
+         right: 40%;
+         bottom: 35%;
+
+    }
+        #section-three{
+        margin-top: 375px!important;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 911px) and (max-width: 1080px){
+        #section-three{
+        margin-top: 375px!important;
+    }
+}
+
+
+@media screen and (min-width: 930px) and (max-width: 1300px){
+    
+.cafe-text{
+    font-size: 19vw!important;
+    }
+    /* 1273px was the original */
+    .hello{
+        font-size: 7rem!important;
+        line-height: 6.6rem;
+        position: absolute;
+        bottom: 40vh; 
+        right: 1%!important;
+        margin-right: 20%;    
+        }
+    
+    .helloTwo{
+        font-size: 1.6rem;
+        right: 22%;
+        bottom: 40vh;
+        color: #ffffff;
+        z-index: 1;
+}    
+    
+     .btn {
+         z-index: 1;
+         position: absolute;
+         right: 40vw!important;
+         bottom: 20vh!important; 
+
+    }
+    
+    
+    
+    #hours-text h1{
+    margin-top: 500px!important;
+    margin-left: 35%!important;
+}
+
+
+#hours-text #mon{
+    margin-top: 580px !important;
+    margin-left: 10% !important;
+}
+
+#hours-text #tue{
+    margin-top: 585px!important;
+    margin-left: 10%!important;
+}
+
+#hours-text #wed{
+    margin-top: 590px!important;
+    margin-left: 10%!important;
+}
+
+#hours-text #thu{
+    margin-top: 595px!important;
+    margin-left: 10%!important;
+}
+
+#hours-text #fri{
+    margin-top: 600px!important;
+    margin-left: 10%!important;
+}
+
+#hours-text #sat{
+    margin-top: 250px!important;
+    margin-left: 60%!important;
+}
+
+#hours-text #sun{
+    margin-top: 255px!important;
+    margin-left: 60% !important;
+}
+    
+
+.hours-image{
+   height:455px!important;
+}
+
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 430px) and (max-width: 929px){
+    
+#hours-text h1{
+    margin-top: 390px!important;
+    margin-left: 30%!important;
+}
+
+
+#hours-text #mon{
+    margin-top: 530px !important;
+    margin-left: 10% !important;
+}
+
+#hours-text #tue{
+    margin-top: 535px!important;
+    margin-left: 10%!important;
+}
+
+#hours-text #wed{
+    margin-top: 540px!important;
+    margin-left: 10%!important;
+}
+
+#hours-text #thu{
+    margin-top: 545px!important;
+    margin-left: 10%!important;
+}
+
+#hours-text #fri{
+    margin-top: 550px!important;
+    margin-left: 10%!important;
+}
+
+#hours-text #sat{
+    margin-top: 250px!important;
+    margin-left: 60%!important;
+}
+
+#hours-text #sun{
+    margin-top: 255px!important;
+    margin-left: 60% !important;
+}
+    
+
+.hours-image{
+   height:455px!important;
+}
+    
+/* In order to make the text responsive when you resize it you have to set the size the the largest media query size it hold so that it wont have a problem resizing */    
+    .cafe-text{
+    font-size: 19vw!important;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+/**************************************Specifically for computer screens ***************************************************/
+
+
+
+                     
+                                                          
+
+
+
+
+/******************************For Iphones *************************/
+
+@media(max-width: 420px){
+    .cafe-text{
+    font-size: 130px!important;
+}
+    h1{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    
+    p{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+    line-height: 22px;
+    }
+    video{
+    position: relative;
+    /* Centering the video display */    
+    transform: translateX(-33%) translateY(-24%);
+        
+    filter: blur(3.2px);
+    z-index: -1;
+  /* how much of the video screen should be displayed */           
+    margin-bottom: -300px;
+  /* how much of the video screen should be displayed */        
+    max-height:830px;
+    }
+    
+    #viking-logo{
+        margin-left: -15px;
+    }
+
+    .logo{
+        font-size: 2.42rem;
+        position: fixed;
+        top: 0;
+        margin-top: 0.70rem;
+        margin-left: 4.4rem;
+    }
+    
+    .hello{
+    font-size: 5rem;
+    bottom: 60%;
+    }
+    
+    .helloTwo{
+        right: 17%;
+        /* For Iphones plus as well */
+        bottom: 53%;
+    }        
+    .btn {
+    z-index: 1;
+    position: absolute;
+    right: 18% !important;
+    bottom: 42% !important;
+    }
+    
+    
+    .bg-one{
+        background: #f7d794;
+        margin-bottom: 0rem;
+        height: 760px;
+    }
+
+    .bg-one .height{
+        width: 100%;
+        padding-top: 300px;
+        padding-left: 10px !important;
+    }
+    
+    .height p{
+        line-height: 38px;
+    }
+    .bg-one .height h1{
+    padding-top: 20px;
+    }
+    .middle-pic{
+    padding-bottom: 30px;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    margin: -630px 0 0 0 !important;    
+    }
+/* This is temporarily getting rid of the extra space on top of the hours menue picture */
+    #hours-text{
+        margin-top: -600px!important;
+      
+    }
+    
+    .grid{
+        margin-top: 36vh;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************For the smallest of screens, kinda ************************************/
+
+@media screen and (min-device-width: 0px) and (max-device-width: 360px){
+    
+    .hello{
+        bottom:42%;
+        left: 13%;
+    }
+    
+    .helloTwo{
+        bottom: 41%;
+    }
+    .btn {
+        z-index: 1;
+        right: 19% !important;
+        bottom: 20% !important;
+
+    }
+    .grid{
+        margin-top: 50vh;
+    }
+}
+
+/*****************************For the smallest of screens, kinda ************************************/
+
+
+
+/******************************For Iphones *************************/
+@media screen and (min-device-width: 375px) and (max-device-width: 400px){
+    
+    
+    .hello{
+    margin:0;
+    padding: 0;
+    font-size: 4rem;
+    line-height: 4.6rem;
+    position: absolute;
+    bottom: 54%; 
+    color: #ffffff;
+    text-align: right;    
+        
+    }
+    
+    .helloTwo{
+        margin:0;
+        padding: 0;
+        font-size: 1.6rem;
+        position: absolute;
+        right: 17%;
+        bottom: 51%;
+        color: #ffffff;
+        z-index: 1;
+}    
+    .btn {
+         z-index: 1;
+         position: absolute;
+         right: 19% !important;
+         bottom: 39% !important;
+
+    }
+        .grid{
+        margin-top: 45vh;
+    }
+    
+}
+/******************************For Iphones *************************/
+
+
+
+
+
+
+
+/************Specifically Iphone plus size ************************/
+@media screen and (min-device-width: 401px) and (max-device-width: 430px){
+    
+    .hello{
+        bottom:53%;
+    }
+        .btn {
+         z-index: 1;
+         position: absolute;
+         right: 19% !important;
+         bottom: 39% !important;
+
+    }
+    .grid{
+        margin-top: 30vh;
+    }
+}
+/************Specifically Iphone plus size ************************/
+
+
+
+
+
+
+
+
+
+
+
+/**********************For Ipad Screens ***************************/
+@media screen and (min-device-width: 481px) and (max-device-width: 768px){
+   .cafe-text{
+    font-size: 151.8px!important;
+}    
+    #section-three{
+        margin-top: 375px!important;
+    }
+    
+    .hello{
+   margin:0;
+    padding: 0;
+    font-size: 6.7rem;
+    line-height: 7rem;
+    position: absolute;
+    bottom: 59%; 
+    right: 28%;    
+    color: #ffffff;
+    text-align: right;    
+        
+    }
+    
+    .helloTwo{
+        margin:0;
+        padding: 0;
+        font-size: 2.6rem;
+        position: absolute;
+        right: 25%;
+        bottom: 55.5%;
+        color: #ffffff;
+        z-index: 1;
+}    
+    .btn {
+         z-index: 1;
+         padding: 1em 1em 1em 1em !important;
+    }
+
+p{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+    line-height: 25px;
+    padding-bottom: 40px;
+}
+    
+.bg-one{
+    background: #f7d794;
+    margin-top: 5%;
+    margin-bottom: 4rem;
+}
+
+.bg-one div.height{
+    height: 42rem;
+}
+
+.middle-pic{
+    position: absolute;
+    border-radius: 5px;
+    width: 500px;
+    margin-top: -39.5rem;
+    margin-left: 13rem;
+}
+
+.bg-one .height h1{
+     padding: 0;
+     margin: 0;
+}    
+.bg-one .height p{
+     margin: 1;
+}        
+
+.height{
+    padding-top: 25rem;
+    padding-left: 5%; 
+    padding-right: 5%;
+}
+
+
+    
+    #hours-text{
+        margin-top: -560px!important;
+    }    
+    
+    
+#hours-text h1{
+    margin-top: 510px!important;
+    margin-left: 35%!important;
+}
+
+
+#hours-text #mon{
+    margin-top: 610px !important;
+    margin-left: 10% !important;
+}
+
+#hours-text #tue{
+    margin-top: 610px!important;
+    margin-left: 10%!important;
+}
+
+#hours-text #wed{
+    margin-top: 610px!important;
+    margin-left: 10%!important;
+}
+
+#hours-text #thu{
+    margin-top: 610px!important;
+    margin-left: 10%!important;
+}
+
+#hours-text #fri{
+    margin-top: 610px!important;
+    margin-left: 10%!important;
+}
+
+#hours-text #sat{
+    margin-top: 250px!important;
+    margin-left: 60%!important;
+}
+
+#hours-text #sun{
+    margin-top: 255px!important;
+    margin-left: 60% !important;
+}
+    
+
+.hours-image{
+   height:455px!important;
+}
+    
+    
+}
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1025px){
+   
+    .hello{
+    position: absolute;
+    bottom: 73%;       
+    }
+    
+    .helloTwo{
+        font-size: 2.6rem;
+        right: 29%;
+        bottom: 70%;
+        z-index: 1;
+}    
+    .btn {
+         z-index: 1;
+         padding: 1em 1em 1em 1em !important;
+         position: absolute;
+         right: 40% !important;
+         bottom: 61% !important;
+    }
+     #section-three{
+        margin-top: 375px!important;
+    }
+}
+/**********************For Ipad Screens ***************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********************************Button **********************************************/
+
+.btn {
+     z-index: 1;
+     position: absolute;
+     right: 42%;
+     bottom: 35%;
+	 box-sizing: border-box;
+	 background-color: transparent;
+	 border-radius: 0.6em;
+	 cursor: pointer;
+	 font-size: 1rem;
+	 font-weight: 400;
+	 line-height: 1;
+	 margin: 20px;
+	 padding: 1.2em 2.8em;
+	 text-decoration: none;
+	 text-transform: uppercase;
+	 font-weight: 700;
+}
+
+ .btn:hover, .btn:focus {
+	 color: #fff;
+	 outline: 0;
+}
+ .fourth {
+	 border-color:  #ffffff;
+	 color: #fff;
+	 background-image: linear-gradient(45deg, #4cd137 50%, transparent 50%);
+	 background-position: 100%;
+	 background-size: 400%;
+	 transition: background 500ms ease-in-out;
+}
+ .fourth:hover {
+	 background-position: 0;
+}
+/***********************************Button **********************************************/ 
+
+
+
+
+
+/************************************Hours********************************************************/
+#hours-text {
+    margin-top: -500px;
+}
+#hours-text h1{
+    position: absolute;
+    font-family: "KG Second Chances Sketch";
+    font-size: 4rem;
+    color: #ffffff;
+    margin-top: 40%;
+    margin-left: 40%;
+}
+
+
+#hours-text #mon{
+    position: absolute;
+    font-family: "KG Second Chances Sketch";
+    font-size: 2rem;
+    color: #ffffff;
+    margin-top: 50%;
+    margin-left: 23%;
+}
+
+#hours-text #tue{
+    position: absolute;
+    font-family: "KG Second Chances Sketch";
+    font-size: 2rem;
+    color: #ffffff;
+    margin-top: 50%;
+    margin-left: 23%;
+}
+
+#hours-text #wed{
+    position: absolute;
+    font-family: "KG Second Chances Sketch";
+    font-size: 2rem;
+    color: #ffffff;
+    margin-top: 50%;
+    margin-left: 23%;
+}
+
+#hours-text #thu{
+    position: absolute;
+    font-family: "KG Second Chances Sketch";
+    font-size: 2rem;
+    color: #ffffff;
+    margin-top: 50%;
+    margin-left: 23%;
+}
+
+#hours-text #fri{
+    position: absolute;
+    font-family: "KG Second Chances Sketch";
+    font-size: 2rem;
+    color: #ffffff;
+    margin-top:  50%;
+    margin-left: 23%;
+}
+
+#hours-text #sat{
+    position: absolute;
+    font-family: "KG Second Chances Sketch";
+    font-size: 2rem;
+    color: #ffffff;
+    margin-top: 22%;
+    margin-left: 60%;
+}
+
+#hours-text #sun{
+    position: absolute;
+    font-family: "KG Second Chances Sketch";
+    font-size: 2rem;
+    color: #ffffff;
+    margin-top: 22%;
+    margin-left: 60%;
+}
+
+
+
+
+
+.hours-image{
+   background-position: 100%;
+   width:100%;
+   height:555px;
+   object-fit:cover;
+   object-position:50% 50%;
+   
+}
+
+
+/***************Media Queries ******************/
+
+@media(max-width: 420px){
+    
+    
+#hours-text h1{
+    margin-top: 550px;
+    margin-left: 24%;
+}
+
+
+#hours-text #mon{
+    margin-top: 700px;
+    margin-left: 3%;
+}
+
+#hours-text #tue{
+    margin-top: 700px;
+    margin-left: 3%;
+}
+
+#hours-text #wed{
+    margin-top: 700px;
+    margin-left: 3%;
+}
+
+#hours-text #thu{
+    margin-top: 700px;
+    margin-left: 3%;
+}
+
+#hours-text #fri{
+    margin-top: 700px;
+    margin-left: 3%;
+}
+
+#hours-text #sat{
+    margin-top: 700px;
+    margin-left: 3%;
+}
+
+#hours-text #sun{
+    margin-top: 700px;;
+    margin-left: 3%;
+}
+    
+.hours-image{
+   background-position: 100%;
+   width:100%;
+   height:700px;
+   object-fit:cover;
+   object-position:50% 50%;
+   
+}
+    
+}
+/***************Media Queries ******************/
+
+/**********************************Hours********************************************************/
+
+
+
+
+
+
+/*******************************************Footer**********************************************/
+.last{
+    padding-top: 25px;
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+
+.bg-light{
+    background: #87cbc4;
+}
+
+.margin-bot{
+    margin-bottom:-45px;
+}
+
+.block{
+    display: inline-block;
+
+}
+
+
+.block p{
+    
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 1px;
+    margin-bottom: 9px;
+}
+.last .block{
+ width: 49%;
+}
+.cafe-text{
+    position: absolute;
+    font-size: 296px;
+    opacity: 0.06;
+}
+
+/*******************************************Footer**********************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+

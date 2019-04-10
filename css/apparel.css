@@ -1,0 +1,285 @@
+
+
+
+
+.description{
+    font-family: 'KG Second Chances Sketch';
+    z-index: 3;
+    position: absolute;
+    font-size: 12vw;
+    bottom: 33vh;
+    left:15vw;
+    color: #ffffff;
+}
+
+
+.main-image{
+   background-position: 100%;
+   width:100%;
+   height:63vh;
+   object-fit:cover;
+   object-position:50% 50%;
+ 
+   filter: blur(3.3px);
+   filter: brightness(70%);
+}
+
+
+
+
+#two{
+    background: #eb3b5a;
+}
+
+#five{
+    background: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.coffee-one{
+    width:40%;
+    padding-left:14vw;
+    padding-right: 2vw;
+    float:left;
+}
+.coffee-one-description{
+   width: 30%;
+   float:right;
+    
+}
+
+
+
+
+
+.bottom{
+float:clear;
+width:67%;
+display:inline-block;
+
+    padding-left: 11vw;
+  
+}
+
+.coffee-two{
+padding:0px;
+padding-left: 25vw;
+margin: 0px;
+width:50%;
+display:block;
+
+}
+
+
+
+
+.resize{
+    width:40%;
+}
+
+
+
+.last-pics{
+    padding-left: 12vw;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+media(min-width: 965px) and (max-width: 1370px){    
+    .description{
+    z-index: 3;
+    position: absolute;
+    font-size: 16vw;
+    bottom: 20vh;
+    left: 4vw;
+}
+.main-image{
+   height:65vh;
+}
+}
+
+/* Computer and Ipad pro */
+@media(max-width: 1350px){
+    .description{
+    z-index: 3;
+    position: absolute;
+    font-size: 16vw;
+    bottom: 62vh;
+    left: 6vw;
+}
+.main-image{
+   height:35vh;
+}
+}
+
+@media(min-width: 1180px) and (max-width: 1330px){    
+    .description{
+    z-index: 3;
+    position: absolute;
+    font-size: 16vw;
+    bottom: 30vh;
+    left: 20vw;
+}
+    
+.main-image{
+   height:62vh;
+}
+}
+
+@media(min-width: 950px) and (max-width: 1160px){    
+    .description{
+    z-index: 3;
+    position: absolute;
+    font-size: 16vw;    
+    left: 20vw;
+    bottom: 20vh;
+}
+    
+.main-image{
+   height:70vh;
+}
+}
+/* For Ipad pro */
+@media screen and (min-device-width: 950px) and (max-device-width: 1160px){
+    .description{
+    z-index: 3;
+    position: absolute;
+    font-size: 16vw;    
+    left: 5vw;
+    bottom: 62vh;
+}
+    
+.main-image{
+   height:40vh;
+}
+}
+
+
+@media(max-width: 964px){
+    .description{
+    z-index: 3;
+    position: absolute;
+    font-size: 16vw;
+    top:9vh;
+    left: 20vw;
+}
+.main-image{
+   height:60vh;
+}
+}
+
+
+@media(max-width: 860px){
+    
+    
+.coffee-one{
+padding:1px;
+margin:1px;
+width:100%;
+display:inline-block;
+}
+.coffee-one-description{
+padding:0px;
+
+width:100%;
+display:block;
+    
+}    
+    
+    
+.bottom{
+padding:1px;
+margin:1px;
+width:100%;
+  
+}
+
+.coffee-two{
+padding:0px;
+
+width:100%;
+display:block;
+
+}
+    
+
+.last-pics{
+    padding:0!important;
+    margin:0!important;
+    width: 121vw;
+}
+    
+}
+
+/*Ipads*/
+@media screen and (min-device-width: 481px) and (max-device-width: 768px){
+.description{
+    z-index: 3;
+    position: absolute;
+    font-size: 16vw;
+    top:3vh;
+    left: 20vw;
+}
+.main-image{
+   height:45vh;
+}
+
+    
+}
+
+
+/*Iphones */
+@media(max-width: 420px){
+.description{
+    z-index: 3;
+    position: absolute;
+    font-size: 16vw;
+    top:15vh;
+    left: 5vw;
+}
+.main-image{
+   height:50vh;
+   width:100vw;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
